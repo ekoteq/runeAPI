@@ -1,0 +1,9 @@
+{
+  "name": "rune-api",
+  "version": "0.0.1",
+  "description": "RuneAPI",
+  "main": "index.js",
+  "author": {
+    "name": "ekoteq"
+  }
+}
