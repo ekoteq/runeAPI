@@ -2,7 +2,7 @@
 
 class Miniquest {
     constructor(data) {
-        this.name = data;
+        this.name = data.name;
     };
 };
 

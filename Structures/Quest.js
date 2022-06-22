@@ -2,7 +2,7 @@
 
 class Quest {
     constructor(data) {
-        this.name = data;
+        this.name = data.name;
     };
 };
 

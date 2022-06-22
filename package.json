@@ -1,6 +1,6 @@
 {
   "name": "rune-api",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "RuneAPI",
   "main": "index.js",
   "author": {
