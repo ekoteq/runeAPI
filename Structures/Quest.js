@@ -8,6 +8,7 @@ class Quest {
         this.difficulty = data.difficulty;
         this.length = data.length;
         this.age = data.age;
+        this.series = data.series;
     };
 };
 

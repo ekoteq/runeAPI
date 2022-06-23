@@ -10,7 +10,8 @@ class Miniquests {
             members: true,
             difficulty: 'intermediate',
             length: 'short to medium',
-            age: 'ambiguous'
+            age: 'ambiguous',
+            series: []
         });
         this.battleOfTheMonolith = new Miniquest({
             name: `Battle of the Monolith`,
@@ -18,7 +19,8 @@ class Miniquests {
             members: true,
             difficulty: 'intermediate',
             length: 'medium',
-            age: 'sixth'
+            age: 'sixth',
+            series: [ 'Elder Gods' ]
         });
         this.benedictsWorldTour = new Miniquest({
             name: `Benedict\'s World Tour`,
@@ -26,7 +28,8 @@ class Miniquests {
             members: false,
             difficulty: 'intermediate',
             length: 'short',
-            age: 'sixth'
+            age: 'sixth',
+            series: []
         });
         this.boricsTaskI = new Miniquest({
             name: `Boric\'s Task I`,
@@ -34,7 +37,8 @@ class Miniquests {
             members: true,
             difficulty: 'intermediate',
             length: 'very short',
-            age: 'fifth'
+            age: 'fifth',
+            series: [ 'Doric and Boric tasks' ]
         });
         this.boricsTaskII = new Miniquest({
             name: `Boric\'s Task II`,
@@ -42,7 +46,8 @@ class Miniquests {
             members: true,
             difficulty: 'intermediate',
             length: 'very short',
-            age: 'fifth'
+            age: 'fifth',
+            series: [ 'Doric and Boric tasks' ]
         });
         this.boricsTaskIII = new Miniquest({
             name: `Boric\'s Task III`,
@@ -50,7 +55,8 @@ class Miniquests {
             members: true,
             difficulty: 'experienced',
             length: 'short',
-            age: 'fifth'
+            age: 'fifth',
+            series: [ 'Doric and Boric tasks' ]
         });
         this.theCurseOfZaros = new Miniquest({
             name: `The Curse of Zaros`,
@@ -58,7 +64,8 @@ class Miniquests {
             members: true,
             difficulty: 'intermediate',
             length: 'medium to long',
-            age: 'fifth'
+            age: 'fifth',
+            series: [ 'Mahjarrat' ]
         });
         this.DamageControl = new Miniquest({
             name: `Damage Control`,
@@ -66,7 +73,8 @@ class Miniquests {
             members: true,
             difficulty: 'grandmaster',
             length: 'short',
-            age: 'sixth'
+            age: 'sixth',
+            series: [ 'Tales of the Arc' ]
         });
         this.DesertSlayerDungeon = new Miniquest({
             name: `Desert Slayer Dungeon`,
@@ -74,7 +82,8 @@ class Miniquests {
             members: true,
             difficulty: 'intermediate',
             length: 'short to medium',
-            age: 'fifth'
+            age: 'fifth',
+            series: [ 'Desert' ]
         });
         this.DoricsTaskI = new Miniquest({
             name: `Doric\'s Task I`,
@@ -82,7 +91,8 @@ class Miniquests {
             members: false,
             difficulty: 'novice',
             length: 'very short',
-            age: 'fifth'
+            age: 'fifth',
+            series: [ 'Doric and Boric tasks' ]
         });
         this.DoricsTaskII = new Miniquest({
             name: `Doric\'s Task II`,
@@ -90,7 +100,8 @@ class Miniquests {
             members: false,
             difficulty: 'novice',
             length: 'very short',
-            age: 'fifth'
+            age: 'fifth',
+            series: [ 'Doric and Boric tasks' ]
         });
         this.DoricsTaskIII = new Miniquest({
             name: `Doric\'s Task III`,
@@ -98,7 +109,8 @@ class Miniquests {
             members: false,
             difficulty: 'intermediate',
             length: 'short',
-            age: 'fifth'
+            age: 'fifth',
+            series: [ 'Doric and Boric tasks' ]
         });
         this.DoricsTaskIV = new Miniquest({
             name: `Doric\'s Task IV`,
@@ -106,7 +118,8 @@ class Miniquests {
             members: false,
             difficulty: 'intermediate',
             length: 'medium',
-            age: 'fifth'
+            age: 'fifth',
+            series: [ 'Doric and Boric tasks' ]
         });
         this.DoricsTaskV = new Miniquest({
             name: `Doric\'s Task V`,
@@ -114,7 +127,8 @@ class Miniquests {
             members: true,
             difficulty: 'experienced',
             length: 'short',
-            age: 'fifth'
+            age: 'fifth',
+            series: [ 'Doric and Boric tasks' ]
         });
         this.DoricsTaskVI = new Miniquest({
             name: `Doric\'s Task VI`,
@@ -122,7 +136,8 @@ class Miniquests {
             members: true,
             difficulty: 'experienced',
             length: 'short',
-            age: 'fifth'
+            age: 'fifth',
+            series: [ 'Doric and Boric tasks' ]
         });
         this.DoricsTaskVII = new Miniquest({
             name: `Doric\'s Task VII`,
@@ -130,7 +145,8 @@ class Miniquests {
             members: true,
             difficulty: 'master',
             length: 'short',
-            age: 'fifth'
+            age: 'fifth',
+            series: [ 'Doric and Boric tasks' ]
         });
         this.DoricsTaskVIII = new Miniquest({
             name: `Doric\'s Task VIII`,
@@ -138,7 +154,8 @@ class Miniquests {
             members: true,
             difficulty: 'master',
             length: 'short',
-            age: 'fifth'
+            age: 'fifth',
+            series: [ 'Doric and Boric tasks' ]
         });
         this.EnterTheAbyss = new Miniquest({
             name: `Enter the Abyss`,
@@ -146,7 +163,8 @@ class Miniquests {
             members: true,
             difficulty: 'intermediate',
             length: 'short',
-            age: 'fifth'
+            age: 'fifth',
+            series: []
         });
         this.EyeForAnEye = new Miniquest({
             name: `Eye for an Eye`,
@@ -154,7 +172,8 @@ class Miniquests {
             members: true,
             difficulty: 'grandmaster',
             length: 'short',
-            age: 'sixth'
+            age: 'sixth',
+            series: [ 'Tales of the Arc' ]
         });
         this.EyeOfHetI = new Miniquest({
             name: `Eye of Het I`,
@@ -162,7 +181,8 @@ class Miniquests {
             members: true,
             difficulty: 'novice',
             length: 'short',
-            age: 'sixth'
+            age: 'sixth',
+            series: [ 'Elder Gods' ]
         });
         this.EyeOfHetII = new Miniquest({
             name: `Eye of Het II`,
@@ -170,7 +190,8 @@ class Miniquests {
             members: true,
             difficulty: 'novice',
             length: 'short',
-            age: 'sixth'
+            age: 'sixth',
+            series: [ 'Elder Gods' ]
         });
         this.FatherAndSon = new Miniquest({
             name: `Father and Son`,
@@ -178,7 +199,8 @@ class Miniquests {
             members: true,
             difficulty: 'novice',
             length: 'short',
-            age: 'sixth'
+            age: 'sixth',
+            series: []
         });
         this.FinalDestination = new Miniquest({
             name: `Final Destination`,
@@ -186,7 +208,8 @@ class Miniquests {
             members: true,
             difficulty: 'grandmaster',
             length: 'short',
-            age: 'sixth'
+            age: 'sixth',
+            series: [  'Tales of the Arc' ]
         });
         this.FlagFall = new Miniquest({
             name: `Flag Fall`,
@@ -194,7 +217,8 @@ class Miniquests {
             members: true,
             difficulty: 'intermediate',
             length: 'short to medium',
-            age: 'sixth'
+            age: 'sixth',
+            series: [ 'Tales of the Arc' ]
         });
         this.FromTinyAcorns = new Miniquest({
             name: `From Tiny Acorns`,
@@ -202,7 +226,8 @@ class Miniquests {
             members: true,
             difficulty: 'novice',
             length: 'short',
-            age: 'ambiguous'
+            age: 'ambiguous',
+            series: [ 'Thieves\' Guild' ]
         });
         this.TheGeneralsShadow = new Miniquest({
             name: `The General\'s Shadow`,
@@ -210,7 +235,8 @@ class Miniquests {
             members: true,
             difficulty: 'experienced',
             length: 'short',
-            age: 'fifth'
+            age: 'fifth',
+            series: [ 'Mahjarrat' ]
         });
         this.GhostsFromThePast = new Miniquest({
             name: `Ghosts from the Past`,
@@ -218,7 +244,8 @@ class Miniquests {
             members: true,
             difficulty: 'grandmaster',
             length: 'short',
-            age: 'sixth'
+            age: 'sixth',
+            series: [ 'Tales of the Arc' ]
         });
         this.AGuildOfOurOwn = new Miniquest({
             name: `A Guild of Our Own`,
@@ -226,7 +253,8 @@ class Miniquests {
             members: true,
             difficulty: 'master',
             length: 'short to medium',
-            age: 'ambiguous'
+            age: 'ambiguous',
+            series: [ 'Thieves\' Guild' ]
         });
         this.Harbinger = new Miniquest({
             name: `Harbinger`,
@@ -234,7 +262,8 @@ class Miniquests {
             members: true,
             difficulty: 'grandmaster',
             length: 'short',
-            age: 'sixth'
+            age: 'sixth',
+            series: [ 'Tales of the Arc' ]
         });
         this.HeadOfTheFamily = new Miniquest({
             name: `Head of the Family`,
@@ -242,7 +271,8 @@ class Miniquests {
             members: true,
             difficulty: 'grandmaster',
             length: 'medium',
-            age: 'sixth'
+            age: 'sixth',
+            series: [ 'Tales of the Arc' ]
         });
         this.HelpingLaniakea = new Miniquest({
             name: `Helping Laniakea`,
@@ -250,7 +280,8 @@ class Miniquests {
             members: true,
             difficulty: 'novice',
             length: 'medium',
-            age: 'sixth'
+            age: 'sixth',
+            series: []
         });
         this.HopespearsWill = new Miniquest({
             name: `Hopespear\'s Will`,
@@ -258,7 +289,8 @@ class Miniquests {
             members: true,
             difficulty: 'experienced',
             length: 'short',
-            age: 'fifth'
+            age: 'fifth',
+            series: [ 'Dorgeshuun' ]
         });
         this.TheHuntForSurok = new Miniquest({
             name: `The Hunt for Surok`,
@@ -266,7 +298,8 @@ class Miniquests {
             members: true,
             difficulty: 'experienced',
             length: 'short to medium',
-            age: 'fifth'
+            age: 'fifth',
+            series: []
         });
         this.InMemoryOfTheMyreque = new Miniquest({
             name: `In Memory of the Myreque`,
@@ -274,7 +307,8 @@ class Miniquests {
             members: true,
             difficulty: 'grandmaster',
             length: 'long',
-            age: 'fifth'
+            age: 'fifth',
+            series: [ 'Myreque' ]
         });
         this.JedHunter = new Miniquest({
             name: `Jed Hunter`,
@@ -282,7 +316,8 @@ class Miniquests {
             members: true,
             difficulty: 'grandmaster',
             length: 'short',
-            age: 'sixth'
+            age: 'sixth',
+            series: [ 'Tales of the Arc' ]
         });
         this.KoscheisTroubles = new Miniquest({
             name: `Koschei\'s Troubles`,
@@ -290,7 +325,8 @@ class Miniquests {
             members: true,
             difficulty: 'grandmaster',
             length: 'short',
-            age: 'fifth'
+            age: 'fifth',
+            series: [ 'Mahjarrat' ]
         });
         this.LairOfTarnRazorlor = new Miniquest({
             name: `Lair of Tarn Razorlor`,
@@ -298,7 +334,8 @@ class Miniquests {
             members: true,
             difficulty: 'experienced',
             length: 'medium',
-            age: 'ambiguous'
+            age: 'ambiguous',
+            series: []
         });
         this.LostHerMarbles = new Miniquest({
             name: `Lost Her Marbles`,
@@ -306,7 +343,8 @@ class Miniquests {
             members: true,
             difficulty: 'intermediate',
             length: 'medium',
-            age: 'ambiguous'
+            age: 'ambiguous',
+            series: [ 'Thieves\' Guild' ]
         });
         this.TheLostToys = new Miniquest({
             name: `The Lost Toys`,
@@ -314,7 +352,8 @@ class Miniquests {
             members: true,
             difficulty: 'grandmaster',
             length: 'medium',
-            age: 'fifth'
+            age: 'fifth',
+            series: [ 'Myreque' ]
         });
         this.MahjarratMemories = new Miniquest({
             name: `Mahjarrat Memories`,
@@ -322,7 +361,8 @@ class Miniquests {
             members: true,
             difficulty: 'grandmaster',
             length: 'very, very long',
-            age: 'sixth'
+            age: 'sixth',
+            series: [ 'Mahjarrat' ]
         });
         this.Nadir = new Miniquest({
             name: `Nadir`,
@@ -330,7 +370,8 @@ class Miniquests {
             members: true,
             difficulty: 'experienced',
             length: 'medium',
-            age: 'fifth'
+            age: 'fifth',
+            series: [ 'Fremennik Sagas' ]
         });
         this.OneFootInTheGrave = new Miniquest({
             name: `One Foot`,
@@ -338,7 +379,8 @@ class Miniquests {
             members: true,
             difficulty: 'master',
             length: 'short to medium',
-            age: 'fifth'
+            age: 'fifth',
+            series: []
         });
         this.PurpleCat = new Miniquest({
             name: `Purple Cat`,
@@ -346,7 +388,8 @@ class Miniquests {
             members: false,
             difficulty: 'intermediate',
             length: 'short',
-            age: 'ambiguous'
+            age: 'ambiguous',
+            series: []
         });
         this.RakshatheShadowColossus = new Miniquest({
             name: `Raksha, the Shadow Colossus`,
@@ -354,7 +397,8 @@ class Miniquests {
             members: true,
             difficulty: 'novice',
             length: 'short',
-            age: 'sixth'
+            age: 'sixth',
+            series: [ 'Elder Gods' ]
         });
         this.RebuildingEdgeville = new Miniquest({
             name: `Rebuilding Edgeville`,
@@ -362,7 +406,8 @@ class Miniquests {
             members: true,
             difficulty: 'grandmaster',
             length: 'short',
-            age: 'sixth'
+            age: 'sixth',
+            series: [ 'Mahjarrat' ]
         });
         this.SheepShearer = new Miniquest({
             name: `Sheep Shearer`,
@@ -370,7 +415,8 @@ class Miniquests {
             members: false,
             difficulty: 'novice',
             length: 'very short',
-            age: 'ambiguous'
+            age: 'ambiguous',
+            series: []
 
         });
         this.SinsOfTheFather = new Miniquest({
@@ -379,7 +425,8 @@ class Miniquests {
             members: true,
             difficulty: 'novice',
             length: 'short',
-            age: 'sixth'
+            age: 'sixth',
+            series: []
         });
         this.SpiritualEnlightenment = new Miniquest({
             name: `Spiritual Enlightenment`,
@@ -387,7 +434,8 @@ class Miniquests {
             members: true,
             difficulty: 'grandmaster',
             length: 'medium',
-            age: 'sixth'
+            age: 'sixth',
+            series: [ 'Tales of the Arc' ]
         });
         this.TalesOfNomad = new Miniquest({
             name: `Tales of Nomad`,
@@ -395,7 +443,8 @@ class Miniquests {
             members: true,
             difficulty: 'master',
             length: 'short',
-            age: 'sixth'
+            age: 'sixth',
+            series: []
         });
         this.TalesOfTheGodWars = new Miniquest({
             name: `Tales of the God Wars`,
@@ -403,7 +452,8 @@ class Miniquests {
             members: true,
             difficulty: 'experienced',
             length: 'medium',
-            age: 'sixth'
+            age: 'sixth',
+            series: []
         });
         this.ThokItToEm = new Miniquest({
             name: `Thok It To \'Em`,
@@ -411,7 +461,8 @@ class Miniquests {
             members: true,
             difficulty: 'experienced',
             length: 'medium',
-            age: 'fifth'
+            age: 'fifth',
+            series: [ 'Fremennik Sagas' ]
         });
         this.ThokYourBlockOff = new Miniquest({
             name: `Thok Your Block Off`,
@@ -419,7 +470,8 @@ class Miniquests {
             members: true,
             difficulty: 'master',
             length: 'medium',
-            age: 'fifth'
+            age: 'fifth',
+            series: [ 'Fremennik Sagas' ]
         });
         this.ThreesCompany = new Miniquest({
             name: `Three\'s Company`,
@@ -427,7 +479,8 @@ class Miniquests {
             members: false,
             difficulty: 'intermediate',
             length: 'medium',
-            age: 'fifth'
+            age: 'fifth',
+            series: [ 'Fremennik Sagas' ]
         });
         this.TortleCombat = new Miniquest({
             name: `Tortle Combat`,
@@ -435,7 +488,8 @@ class Miniquests {
             members: true,
             difficulty: 'novice',
             length: 'medium',
-            age: 'ambiguous'
+            age: 'ambiguous',
+            series: []
         });
         this.TuaiLeitsOwn = new Miniquest({
             name: `Tuai Leit\'s Own`,
@@ -443,7 +497,8 @@ class Miniquests {
             members: true,
             difficulty: 'grandmaster',
             length: 'short to medium',
-            age: 'sixth'
+            age: 'sixth',
+            series: [ 'Tales of the Arc' ]
         });
         this.TheVaultOfShadows = new Miniquest({
             name: `The Vault of Shadows`,
@@ -451,7 +506,8 @@ class Miniquests {
             members: true,
             difficulty: 'experienced',
             length: 'medium',
-            age: 'sixth'
+            age: 'sixth',
+            series: []
         });
         this.Vengeance = new Miniquest({
             name: `Vengeance`,
@@ -459,7 +515,8 @@ class Miniquests {
             members: true,
             difficulty: 'intermediate',
             length: 'medium',
-            age: 'fifth'
+            age: 'fifth',
+            series: [ 'Fremennik Sagas' ]
         });
         this.WanderingGaAl = new Miniquest({
             name: `Wandering Ga\'al`,
@@ -467,7 +524,8 @@ class Miniquests {
             members: true,
             difficulty: 'grandmaster',
             length: 'very short',
-            age: 'ambiguous'
+            age: 'ambiguous',
+            series: [ 'TzHaar' ]
         });
         this.WitchsPotion = new Miniquest({
             name: `Witch\'s Potion`,
@@ -475,7 +533,8 @@ class Miniquests {
             members: false,
             difficulty: 'novice',
             length: 'very short',
-            age: 'ambiguous'
+            age: 'ambiguous',
+            series: []
         });
     };
 };

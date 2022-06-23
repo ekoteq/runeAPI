@@ -10,7 +10,8 @@ class Quests {
             members: true,
             difficulty: 'intermediate',
             length: 'short to medium',
-            age: 'fifth'
+            age: 'fifth',
+            series: []
         });
         this.animalMagnetism = new Quest({
             name: `Animal Magnetism`,
@@ -18,7 +19,8 @@ class Quests {
             members: true,
             difficulty: 'intermediate',
             length: 'medium',
-            age: 'fifth'
+            age: 'fifth',
+            series: []
         });
         this.anotherSliceOfHAM = new Quest({
             name: `Another Slice of H.A.M.`,
@@ -26,7 +28,8 @@ class Quests {
             members: true,
             difficulty: 'intermediate',
             length: 'medium',
-            age: 'fifth'
+            age: 'fifth',
+            series: [ 'Dorgeshuun' ]
         });
         this.asAFirstResort = new Quest({
             name: `As a First Resort`,
@@ -34,7 +37,8 @@ class Quests {
             members: true,
             difficulty: 'experienced',
             length: 'long',
-            age: 'ambiguous'
+            age: 'ambiguous',
+            series: []
         });
         this.azzanadrasQuest = new Quest({
             name: `Azzanadra\'s Quest`,
@@ -42,7 +46,8 @@ class Quests {
             members: true,
             difficulty: 'experienced',
             length: 'long',
-            age: 'sixth'
+            age: 'sixth',
+            series: [ 'Elder Gods', 'Temple Knight' ]
         });
         this.backToMyRoots = new Quest({
             name: `Back to my Roots`,
@@ -50,7 +55,8 @@ class Quests {
             members: true,
             difficulty: 'master',
             length: 'medium',
-            age: 'fifth'
+            age: 'fifth',
+            series: []
         });
         this.backToTheFreezer = new Quest({
             name: `Back to the Freezer`,
@@ -58,7 +64,8 @@ class Quests {
             members: true,
             difficulty: 'master',
             length: 'medium to long',
-            age: 'sixth'
+            age: 'sixth',
+            series: [ 'Penguin' ]
         });
         this.beneathCursedTides = new Quest({
             name: `Beneath Cursed Tides`,
@@ -66,7 +73,8 @@ class Quests {
             members: false,
             difficulty: 'intermediate',
             length: 'medium',
-            age: 'ambiguous'
+            age: 'ambiguous',
+            series: []
         });
         this.betweenARock = new Quest({
             name: `Between a Rock...`,
@@ -74,7 +82,8 @@ class Quests {
             members: true,
             difficulty: 'experienced',
             length: 'medium',
-            age: 'ambiguous'
+            age: 'ambiguous',
+            series: [ 'Rise of the Red Axe' ]
         });
         this.bigChompyBirdHunting = new Quest({
             name: `Big Chompy Bird Hunting`,
@@ -82,7 +91,8 @@ class Quests {
             members: true,
             difficulty: 'intermediate',
             length: 'medium',
-            age: 'fifth'
+            age: 'fifth',
+            series: []
         });
         this.biohazard = new Quest({
             name: `Biohazard`,
@@ -90,7 +100,8 @@ class Quests {
             members: true,
             difficulty: 'novice',
             length: 'medium',
-            age: 'fifth'
+            age: 'fifth',
+            series: [ 'Elf' ]
         });
         this.birthrightOfTheDwarves = new Quest({
             name: `Birthright of the Dwarves`,
@@ -98,7 +109,8 @@ class Quests {
             members: true,
             difficulty: 'grandmaster',
             length: 'very long',
-            age: 'ambiguous'
+            age: 'ambiguous',
+            series: [ 'Rise of the Red Axe' ]
         });
         this.theBloodPact = new Quest({
             name: `The Blood Pact`,
@@ -106,7 +118,8 @@ class Quests {
             members: false,
             difficulty: 'novice',
             length: 'short',
-            age: 'ambiguous'
+            age: 'ambiguous',
+            series: [ 'Signature Heroes' ]
         });
         this.bloodRunsDeep = new Quest({
             name: `Blood Runs Deep`,
@@ -114,7 +127,8 @@ class Quests {
             members: true,
             difficulty: 'master',
             length: 'long',
-            age: 'fifth'
+            age: 'fifth',
+            series: [ 'Fremennik' ]
         });
         this.theBranchesOfDarkmeyer = new Quest({
             name: `The Branches of Darkmeyer`,
@@ -122,7 +136,8 @@ class Quests {
             members: true,
             difficulty: 'master',
             length: 'long',
-            age: 'fifth'
+            age: 'fifth',
+            series: [ 'Myreque' ]
         });
         this.bringingHomeTheBacon = new Quest({
             name: `Bringing Home the Bacon`,
@@ -130,7 +145,8 @@ class Quests {
             members: true,
             difficulty: 'novice',
             length: 'medium to long',
-            age: 'ambiguous'
+            age: 'ambiguous',
+            series: []
         });
         this.theBrinkOfExtinction = new Quest({
             name: `The Brink of Extinction`,
@@ -138,7 +154,8 @@ class Quests {
             members: true,
             difficulty: 'grandmaster',
             length: 'medium to long',
-            age: 'ambiguous'
+            age: 'ambiguous',
+            series: [ 'TzHaar' ]
         });
         this.brokenHome = new Quest({
             name: `Broken Home`,
@@ -146,7 +163,8 @@ class Quests {
             members: false,
             difficulty: 'novice',
             length: 'medium to long',
-            age: 'ambiguous'
+            age: 'ambiguous',
+            series: []
         });
         this.buyersAndCellars = new Quest({
             name: `Buyers and Cellars`,
@@ -154,7 +172,8 @@ class Quests {
             members: true,
             difficulty: 'novice',
             length: 'short to medium',
-            age: 'ambiguous'
+            age: 'ambiguous',
+            series: [ 'Thieves\' Guild' ]
         });
         this.cabinFever = new Quest({
             name: `Cabin Fever`,
@@ -162,7 +181,8 @@ class Quests {
             members: true,
             difficulty: 'experienced',
             length: 'medium',
-            age: 'fifth'
+            age: 'fifth',
+            series: [ 'Pirate' ]
         });
         this.callOfTheAncestors = new Quest({
             name: `Call of the Ancestors`,
@@ -170,7 +190,8 @@ class Quests {
             members: true,
             difficulty: 'novice',
             length: 'medium',
-            age: 'sixth'
+            age: 'sixth',
+            series: []
         });
         this.carnilleanRising = new Quest({
             name: `Carnillean Rising`,
@@ -178,7 +199,8 @@ class Quests {
             members: true,
             difficulty: 'intermediate',
             length: 'medium to long',
-            age: 'ambiguous'
+            age: 'ambiguous',
+            series: [ 'Signature Heroes' ]
         });
         this.catapultConstruction = new Quest({
             name: `Catapult Construction`,
@@ -186,7 +208,8 @@ class Quests {
             members: true,
             difficulty: 'master',
             length: 'short to medium',
-            age: 'ambiguous'
+            age: 'ambiguous',
+            series: []
         });
         this.chefsAssistant = new Quest({
             name: `Chef\'s Assistant`,
@@ -194,7 +217,8 @@ class Quests {
             members: false,
             difficulty: 'novice',
             length: 'short to medium',
-            age: 'ambiguous'
+            age: 'ambiguous',
+            series: []
         });
         this.childrenOfMah = new Quest({
             name: `Children of Mah`,
@@ -202,7 +226,8 @@ class Quests {
             members: true,
             difficulty: 'grandmaster',
             length: 'medium to long',
-            age: 'sixth'
+            age: 'sixth',
+            series: [ 'Sliske' ]
         });
         this.theChosenCommander = new Quest({
             name: `The Chosen Commander`,
@@ -210,7 +235,8 @@ class Quests {
             members: true,
             difficulty: 'experienced',
             length: 'long to very long',
-            age: 'fifth'
+            age: 'fifth',
+            series: [ 'Dorgeshuun' ]
         });
         this.cityOfSenntisten = new Quest({
             name: `City of Senntisten`,
@@ -218,7 +244,8 @@ class Quests {
             members: true,
             difficulty: 'master',
             length: 'long',
-            age: 'sixth'
+            age: 'sixth',
+            series: [ 'Elder Gods' ]
         });
         this.clockTower = new Quest({
             name: `Clock Tower`,
@@ -226,7 +253,8 @@ class Quests {
             members: true,
             difficulty: 'novice',
             length: 'short',
-            age: 'ambiguous'
+            age: 'ambiguous',
+            series: []
         });
         this.aClockworkSyringe = new Quest({
             name: `A Clockwork Syringe`,
@@ -234,7 +262,8 @@ class Quests {
             members: true,
             difficulty: 'master',
             length: 'long',
-            age: 'fifth'
+            age: 'fifth',
+            series: [ 'Pirate' ]
         });
         this.coldWar = new Quest({
             name: `Cold War`,
@@ -242,7 +271,8 @@ class Quests {
             members: true,
             difficulty: 'intermediate',
             length: 'long',
-            age: 'fifth'
+            age: 'fifth',
+            series: [ 'Penguin' ]
         });
         this.contact = new Quest({
             name: `Contact!`,
@@ -250,7 +280,8 @@ class Quests {
             members: true,
             difficulty: 'master',
             length: 'medium',
-            age: 'fifth'
+            age: 'fifth',
+            series: [ 'Desert' ]
         });
         this.cooksAssistant = new Quest({
             name: `Cook\'s Assistant`,
@@ -258,7 +289,8 @@ class Quests {
             members: false,
             difficulty: 'novice',
             length: 'short',
-            age: 'fifth'
+            age: 'fifth',
+            series: []
         });
         this.creatureOfFenkenstrain = new Quest({
             name: `Creature of Fenkenstrain`,
@@ -266,7 +298,8 @@ class Quests {
             members: true,
             difficulty: 'intermediate',
             length: 'medium',
-            age: 'fifth'
+            age: 'fifth',
+            series: []
         });
         this.crocodileTears = new Quest({
             name: `Crocodile Tears`,
@@ -274,7 +307,8 @@ class Quests {
             members: true,
             difficulty: 'master',
             length: 'medium',
-            age: 'fifth'
+            age: 'fifth',
+            series: [ 'Desert' ]
         });
         this.theCurseOfArrav = new Quest({
             name: `The Curse of Arrav`,
@@ -282,7 +316,8 @@ class Quests {
             members: true,
             difficulty: 'master',
             length: 'medium to long',
-            age: 'fifth'
+            age: 'fifth',
+            series: [ 'Mahjarrat', 'Arrav' ]
         });
         this.curseOfTheBlackStone = new Quest({
             name: `Curse of the Black Stone`,
@@ -290,7 +325,8 @@ class Quests {
             members: true,
             difficulty: 'master',
             length: 'long',
-            age: 'sixth'
+            age: 'sixth',
+            series: [ 'Pirates', 'Tales of the Arc', 'Dragonkin' ]
         });
         this.theDarknessOfHallowvale = new Quest({
             name: `The Darkness of Hallowvale`,
@@ -298,7 +334,8 @@ class Quests {
             members: true,
             difficulty: 'intermediate',
             length: 'very long',
-            age: 'fifth'
+            age: 'fifth',
+            series: [ 'Myreque' ]
         });
         this.deadliestCatch = new Quest({
             name: `Deadliest Catch`,
@@ -306,7 +343,8 @@ class Quests {
             members: true,
             difficulty: 'master',
             length: 'short to medium',
-            age: 'fifth'
+            age: 'fifth',
+            series: []
         });
         this.dealingWithScabaras = new Quest({
             name: `Dealing with Scabaras`,
@@ -314,7 +352,8 @@ class Quests {
             members: true,
             difficulty: 'master',
             length: 'long',
-            age: 'fifth'
+            age: 'fifth',
+            series: [ 'Desert' ]
         });
         this.theDeathOfChivalry = new Quest({
             name: `The Death of Chivalry`,
@@ -322,7 +361,8 @@ class Quests {
             members: false,
             difficulty: 'novice',
             length: 'long',
-            age: 'sixth'
+            age: 'sixth',
+            series: [ 'Signature Heroes', 'Temple Knight', 'God' ]
         });
         this.deathPlateau = new Quest({
             name: `Death Plateau`,
@@ -330,7 +370,8 @@ class Quests {
             members: false,
             difficulty: 'novice',
             length: 'short',
-            age: 'fifth'
+            age: 'fifth',
+            series: [ 'Troll' ]
         });
         this.deathToTheDorgeshuun = new Quest({
             name: `Death to the Dorgeshuun`,
@@ -338,7 +379,8 @@ class Quests {
             members: true,
             difficulty: 'intermediate',
             length: 'medium',
-            age: 'fifth'
+            age: 'fifth',
+            series: [ 'Dorgeshuun' ]
         });
         this.defenderOfVarrock = new Quest({
             name: `Defender of Varrock`,
@@ -346,7 +388,8 @@ class Quests {
             members: true,
             difficulty: 'experienced',
             length: 'medium to long',
-            age: 'fifth'
+            age: 'fifth',
+            series: [ 'Mahjarrat', 'Arrav' ]
         });
         this.demonSlayer = new Quest({
             name: `Demon Slayer`,
@@ -354,7 +397,8 @@ class Quests {
             members: false,
             difficulty: 'novice',
             length: 'short',
-            age: 'fifth'
+            age: 'fifth',
+            series: [ 'Delrith' ]
         });
         this.desertTreasure = new Quest({
             name: `Desert Treasure`,
@@ -362,7 +406,8 @@ class Quests {
             members: true,
             difficulty: 'master',
             length: 'very long',
-            age: 'fifth'
+            age: 'fifth',
+            series: [ 'Return of Zaros' ]
         });
         this.desperateMeasures = new Quest({
             name: `Desperate Measures`,
@@ -370,7 +415,8 @@ class Quests {
             members: true,
             difficulty: 'intermediate',
             length: 'very long',
-            age: 'sixth'
+            age: 'sixth',
+            series: [ 'Elder Gods' ]
         });
         this.desperateTimes = new Quest({
             name: `Desperate Times`,
@@ -378,7 +424,8 @@ class Quests {
             members: true,
             difficulty: 'intermediate',
             length: 'medium',
-            age: 'sixth'
+            age: 'sixth',
+            series: [ 'Elder Gods' ]
         });
         this.deviousMinds = new Quest({
             name: `Devious Minds`,
@@ -386,7 +433,8 @@ class Quests {
             members: true,
             difficulty: 'experienced',
             length: 'medium',
-            age: 'fifth'
+            age: 'fifth',
+            series: [ 'Mahjarrat' ]
         });
         this.diamondInTheRough = new Quest({
             name: `Diamond in the Rough`,
@@ -394,7 +442,8 @@ class Quests {
             members: true,
             difficulty: 'novice',
             length: 'medium to long',
-            age: 'fifth'
+            age: 'fifth',
+            series: [ 'Desert', 'Signature Heroes' ]
         });
         this.theDigSite = new Quest({
             name: `The Dig Site`,
@@ -402,7 +451,8 @@ class Quests {
             members: true,
             difficulty: 'intermediate',
             length: 'long',
-            age: 'fifth'
+            age: 'fifth',
+            series: [ 'Return of Zaros' ]
         });
         this.dimensionOfDisaster = new Quest({
             name: `Dimension of Disaster`,
@@ -410,7 +460,8 @@ class Quests {
             members: true,
             difficulty: 'special',
             length: 'very, very long',
-            age: 'sixth'
+            age: 'sixth',
+            series: []
         });
         this.dishonourAmongThieves = new Quest({
             name: `Dishonour among Thieves`,
@@ -418,7 +469,8 @@ class Quests {
             members: true,
             difficulty: 'intermediate',
             length: 'long',
-            age: 'sixth'
+            age: 'sixth',
+            series: [ 'God', 'Sliske' ]
         });
         this.doNoEvil = new Quest({
             name: `Do No Evil`,
@@ -426,7 +478,8 @@ class Quests {
             members: true,
             difficulty: 'master',
             length: 'very long',
-            age: 'fifth'
+            age: 'fifth',
+            series: [ 'Desert', 'Monkey' ]
         });
         this.dragonSlayer = new Quest({
             name: `Dragon Slayer`,
@@ -434,7 +487,8 @@ class Quests {
             members: false,
             difficulty: 'experienced',
             length: 'long',
-            age: 'fifth'
+            age: 'fifth',
+            series: []
         });
         this.dreamMentor = new Quest({
             name: `Dream Mentor`,
@@ -442,7 +496,8 @@ class Quests {
             members: true,
             difficulty: 'master',
             length: 'short to medium',
-            age: 'fifth'
+            age: 'fifth',
+            series: [ 'Fremennik' ]
         });
         this.druidicRitual = new Quest({
             name: `Druidic Ritual`,
@@ -450,7 +505,8 @@ class Quests {
             members: false,
             difficulty: 'novice',
             length: 'short',
-            age: 'fifth'
+            age: 'fifth',
+            series: [ 'Druid\'s Circles' ]
         });
         this.dwarfCannon = new Quest({
             name: `Dwarf Cannon`,
@@ -458,7 +514,8 @@ class Quests {
             members: true,
             difficulty: 'novice',
             length: 'medium',
-            age: 'ambiguous'
+            age: 'ambiguous',
+            series: []
         });
         this.eadgarsRuse = new Quest({
             name: `Eadgar\'s Ruse`,
@@ -466,7 +523,8 @@ class Quests {
             members: true,
             difficulty: 'experienced',
             length: 'long',
-            age: 'fifth'
+            age: 'fifth',
+            series: [ 'Troll', 'Druid\'s Circles' ]
         });
         this.eaglesPeak = new Quest({
             name: `Eagles\' Peak`,
@@ -474,7 +532,8 @@ class Quests {
             members: true,
             difficulty: 'novice',
             length: 'medium',
-            age: 'ambiguous'
+            age: 'ambiguous',
+            series: []
         });
         this.theElderKiln = new Quest({
             name: `The Elder Kiln`,
@@ -482,7 +541,8 @@ class Quests {
             members: true,
             difficulty: 'master',
             length: 'long',
-            age: 'ambiguous'
+            age: 'ambiguous',
+            series: [ 'TzHaar' ]
         });
         this.elementalWorkshopI = new Quest({
             name: `Elemental Workshop I`,
@@ -490,7 +550,8 @@ class Quests {
             members: true,
             difficulty: 'novice',
             length: 'short',
-            age: 'ambiguous'
+            age: 'ambiguous',
+            series: [ 'Elemental Workshop' ]
         });
         this.elementalWorkshopII = new Quest({
             name: `Elemental Workshop II`,
@@ -498,7 +559,8 @@ class Quests {
             members: true,
             difficulty: 'intermediate',
             length: 'medium',
-            age: 'ambiguous'
+            age: 'ambiguous',
+            series: [ 'Elemental Workshop' ]
         });
         this.elementalWorkshopIII = new Quest({
             name: `Elemental Workshop III`,
@@ -506,7 +568,8 @@ class Quests {
             members: true,
             difficulty: 'intermediate',
             length: 'medium to long',
-            age: 'ambiguous'
+            age: 'ambiguous',
+            series: [ 'Elemental Workshop' ]
         });
         this.elementalWorkshopIV = new Quest({
             name: `Elemental Workshop IV`,
@@ -514,7 +577,8 @@ class Quests {
             members: true,
             difficulty: 'intermediate',
             length: 'long',
-            age: 'ambiguous'
+            age: 'ambiguous',
+            series: [ 'Elemental Workshop' ]
         });
         this.enakhrasLament = new Quest({
             name: `Enakhra\'s Lament`,
@@ -522,7 +586,8 @@ class Quests {
             members: true,
             difficulty: 'experienced',
             length: 'medium',
-            age: 'ffifth'
+            age: 'fifth',
+            series: [ 'Mahjarrat' ]
         });
         this.enlightenedJourney = new Quest({
             name: `Enlightened Journey`,
@@ -530,7 +595,8 @@ class Quests {
             members: true,
             difficulty: 'intermediate',
             length: 'medium',
-            age: 'ambiguous'
+            age: 'ambiguous',
+            series: []
         });
         this.ernestTheChicken = new Quest({
             name: `Ernest the Chicken`,
@@ -538,7 +604,8 @@ class Quests {
             members: false,
             difficulty: 'novice',
             length: 'medium',
-            age: 'fifth'
+            age: 'fifth',
+            series: []
         });
         this.evilDavesBigDayOut = new Quest({
             name: `Evil Dave\'s Big Day Out`,
@@ -546,7 +613,8 @@ class Quests {
             members: true,
             difficulty: 'intermediate',
             length: 'medium',
-            age: 'sixth'
+            age: 'sixth',
+            series: []
         });
         this.extinction = new Quest({
             name: `Extinction`,
@@ -554,7 +622,8 @@ class Quests {
             members: true,
             difficulty: 'grandmaster',
             length: 'very long',
-            age: 'sixth'
+            age: 'sixth',
+            series: [ 'Elder Gods' ]
         });
         this.theEyesOfGlouphrie = new Quest({
             name: `The Eyes of Glouphrie`,
@@ -562,7 +631,8 @@ class Quests {
             members: true,
             difficulty: 'intermediate',
             length: 'medium',
-            age: 'fifth'
+            age: 'fifth',
+            series: [ 'Gnome' ]
         });
         this.aFairyTaleI = new Quest({
             name: `A Fairy Tale I - Growing Pains`,
@@ -570,7 +640,8 @@ class Quests {
             members: true,
             difficulty: 'experienced',
             length: 'medium',
-            age: 'fifth'
+            age: 'fifth',
+            series: [ 'Fairy Tale' ]
         });
         this.aFairyTaleII = new Quest({
             name: `A Fairy Tale II - Cure a Queen`,
@@ -578,7 +649,8 @@ class Quests {
             members: true,
             difficulty: 'experienced',
             length: 'medium',
-            age: 'fifth'
+            age: 'fifth',
+            series: [ 'Fairy Tale' ]
         });
         this.aFairyTaleIII = new Quest({
             name: `A Fairy Tale III - Battle at Ork's Rift`,
@@ -586,7 +658,8 @@ class Quests {
             members: true,
             difficulty: 'experienced',
             length: 'long',
-            age: 'fifth'
+            age: 'fifth',
+            series: [ 'Fairy Tale' ]
         });
         this.familyCrest = new Quest({
             name: `Family Crest`,
@@ -594,7 +667,8 @@ class Quests {
             members: true,
             difficulty: 'experienced',
             length: 'medium',
-            age: 'fifth'
+            age: 'fifth',
+            series: []
         });
         this.fateOfTheGods = new Quest({
             name: `Fate of the Gods`,
@@ -602,7 +676,8 @@ class Quests {
             members: true,
             difficulty: 'grandmaster',
             length: 'long to very long',
-            age: 'sixth'
+            age: 'sixth',
+            series: [ 'Return of Zaros', 'Gods', 'Elder Gods' ]
         });
         this.theFeud = new Quest({
             name: `The Feud`,
@@ -610,7 +685,8 @@ class Quests {
             members: true,
             difficulty: 'intermediate',
             length: 'medium',
-            age: 'fifth'
+            age: 'fifth',
+            series: []
         });
         this.fightArena = new Quest({
             name: `Fight Arena`,
@@ -618,7 +694,8 @@ class Quests {
             members: true,
             difficulty: 'experienced',
             length: 'medium',
-            age: 'fifth'
+            age: 'fifth',
+            series: [ 'Mahjarrat' ]
         });
         this.theFiremakersCurse = new Quest({
             name: `The Firemaker\'s Curse`,
@@ -626,7 +703,8 @@ class Quests {
             members: true,
             difficulty: 'master',
             length: 'very long',
-            age: 'fifth'
+            age: 'fifth',
+            series: []
         });
         this.fishingContest = new Quest({
             name: `Fishing Contest`,
@@ -634,7 +712,8 @@ class Quests {
             members: true,
             difficulty: 'novice',
             length: 'short',
-            age: 'fifth'
+            age: 'fifth',
+            series: []
         });
         this.forgettableTaleOfADrunkenDwarf = new Quest({
             name: `Forgettable Tale of a Drunken Dwarf`,
@@ -642,7 +721,8 @@ class Quests {
             members: true,
             difficulty: 'intermediate',
             length: 'long',
-            age: 'ambiguous'
+            age: 'ambiguous',
+            series: [ 'Rise of the Red Axe' ]
         });
         this.forgivenessOfAChaosDwarf = new Quest({
             name: `Forgiveness of a Chaos Dwarf`,
@@ -650,7 +730,8 @@ class Quests {
             members: true,
             difficulty: 'master',
             length: 'medium to long',
-            age: 'ambiguous'
+            age: 'ambiguous',
+            series: [ 'Rise of the Red Axe' ]
         });
         this.theFremennikIsles = new Quest({
             name: `The Fremennik Isles`,
@@ -658,7 +739,8 @@ class Quests {
             members: true,
             difficulty: 'experienced',
             length: 'long',
-            age: 'fifth'
+            age: 'fifth',
+            series: [ 'Fremennik' ]
         });
         this.theFremennikTrials = new Quest({
             name: `The Fremennik Trials`,
@@ -666,7 +748,8 @@ class Quests {
             members: true,
             difficulty: 'intermediate',
             length: 'long',
-            age: 'fifth'
+            age: 'fifth',
+            series: [ 'Fremennik' ]
         });
         this.furNSeek = new Quest({
             name: `Fur \'n Seek`,
@@ -674,7 +757,8 @@ class Quests {
             members: true,
             difficulty: 'novice',
             length: 'medium',
-            age: 'ambiguous'
+            age: 'ambiguous',
+            series: []
         });
         this.gardenOfTranquillity = new Quest({
             name: `Garden of Tranquillity`,
@@ -682,7 +766,8 @@ class Quests {
             members: true,
             difficulty: 'intermediate',
             length: 'long',
-            age: 'fifth'
+            age: 'fifth',
+            series: []
         });
         this.gertrudesCat = new Quest({
             name: `Gertrude\'s Cat`,
@@ -690,7 +775,8 @@ class Quests {
             members: false,
             difficulty: 'novice',
             length: 'medium',
-            age: 'fifth'
+            age: 'fifth',
+            series: []
         });
         this.ghostsAhoy = new Quest({
             name: `Ghosts Ahoy`,
@@ -698,7 +784,8 @@ class Quests {
             members: true,
             difficulty: 'intermediate',
             length: 'short',
-            age: 'ambiguous'
+            age: 'ambiguous',
+            series: []
         });
         this.theGiantDwarf = new Quest({
             name: `The Giant Dwarf`,
@@ -706,7 +793,8 @@ class Quests {
             members: true,
             difficulty: 'intermediate',
             length: 'medium to long',
-            age: 'fifth'
+            age: 'fifth',
+            series: [ 'Rise of the Red Axe' ]
         });
         this.gloriousMemories = new Quest({
             name: `Glorious Memories`,
@@ -714,7 +802,8 @@ class Quests {
             members: true,
             difficulty: 'master',
             length: 'medium',
-            age: 'fifth'
+            age: 'fifth',
+            series: [ 'Fremennik' ]
         });
         this.goblinDiplomacy = new Quest({
             name: `Goblin Diplomacy`,
@@ -722,7 +811,8 @@ class Quests {
             members: false,
             difficulty: 'novice',
             length: 'short',
-            age: 'fifth'
+            age: 'fifth',
+            series: [ 'Dorgeshuun' ]
         });
         this.theGolem = new Quest({
             name: `The Golem`,
@@ -730,7 +820,8 @@ class Quests {
             members: true,
             difficulty: 'intermediate',
             length: 'medium',
-            age: 'fifth'
+            age: 'fifth',
+            series: []
         });
         this.gowerQuest = new Quest({
             name: `Gower Quest`,
@@ -738,7 +829,8 @@ class Quests {
             members: false,
             difficulty: 'experienced',
             length: 'medium to long',
-            age: 'sixth'
+            age: 'sixth',
+            series: []
         });
         this.theGrandTree = new Quest({
             name: `The Grand Tree`,
@@ -746,7 +838,8 @@ class Quests {
             members: true,
             difficulty: 'experienced',
             length: 'long',
-            age: 'fifth'
+            age: 'fifth',
+            series: [ 'Gnome' ]
         });
         this.theGreatBrainRobbery = new Quest({
             name: `The Great Brain Robbery`,
@@ -754,7 +847,8 @@ class Quests {
             members: true,
             difficulty: 'experienced',
             length: 'medium to long',
-            age: 'fifth'
+            age: 'fifth',
+            series: [ 'Pirate' ]
         });
         this.grimTales = new Quest({
             name: `Grim Tales`,
@@ -762,7 +856,8 @@ class Quests {
             members: true,
             difficulty: 'master',
             length: 'medium',
-            age: 'ambiguous'
+            age: 'ambiguous',
+            series: []
         });
         this.gunnarsGround = new Quest({
             name: `Gunnar\'s Ground`,
@@ -770,7 +865,8 @@ class Quests {
             members: false,
             difficulty: 'novice',
             length: 'short to medium',
-            age: 'ambiguous'
+            age: 'ambiguous',
+            series: []
         });
         this.theHandInTheSand = new Quest({
             name: `The Hand in the Sand`,
@@ -778,7 +874,8 @@ class Quests {
             members: true,
             difficulty: 'intermediate',
             length: 'medium',
-            age: 'fifth'
+            age: 'fifth',
+            series: []
         });
         this.hauntedMine = new Quest({
             name: `Haunted Mine`,
@@ -786,7 +883,8 @@ class Quests {
             members: true,
             difficulty: 'experienced',
             length: 'long',
-            age: 'ambiguous'
+            age: 'ambiguous',
+            series: []
         });
         this.hazeelCult = new Quest({
             name: `Hazeel Cult`,
@@ -794,7 +892,8 @@ class Quests {
             members: true,
             difficulty: 'novice',
             length: 'short',
-            age: 'fifth'
+            age: 'fifth',
+            series: [ 'Mahjarrat' ]
         });
         this.heartOfStone = new Quest({
             name: `Heart of Stone`,
@@ -802,7 +901,8 @@ class Quests {
             members: true,
             difficulty: 'intermediate',
             length: 'long',
-            age: 'sixth'
+            age: 'sixth',
+            series: [ 'Elder Gods' ]
         });
         this.heartstealer = new Quest({
             name: `Heartstealer`,
@@ -810,7 +910,8 @@ class Quests {
             members: false,
             difficulty: 'novice',
             length: 'short to medium',
-            age: 'sixth'
+            age: 'sixth',
+            series: []
         });
         this.herosWelcome = new Quest({
             name: `Hero\'s Welcome`,
@@ -818,7 +919,8 @@ class Quests {
             members: true,
             difficulty: 'experienced',
             length: 'medium to long',
-            age: 'sixth'
+            age: 'sixth',
+            series: [ 'Fremennik', 'Dragonkin' ]
         });
         this.heroesQuest = new Quest({
             name: `Heroes\' Quest`,
@@ -826,7 +928,8 @@ class Quests {
             members: true,
             difficulty: 'experienced',
             length: 'medium',
-            age: 'fifth'
+            age: 'fifth',
+            series: []
         });
         this.holyGrail = new Quest({
             name: `Holy Grail`,
@@ -834,7 +937,8 @@ class Quests {
             members: true,
             difficulty: 'intermediate',
             length: 'short to medium',
-            age: 'fifth'
+            age: 'fifth',
+            series: [ 'Camelot' ]
         });
         this.horrorFromTheDeep = new Quest({
             name: `Horror from the Deep`,
@@ -842,7 +946,8 @@ class Quests {
             members: true,
             difficulty: 'experienced',
             length: 'medium',
-            age: 'fifth'
+            age: 'fifth',
+            series: [ 'Fremennik' ]
         });
         this.huntForRedRaktuber = new Quest({
             name: `Hunt for Red Raktuber`,
@@ -850,7 +955,8 @@ class Quests {
             members: true,
             difficulty: 'intermediate',
             length: 'long',
-            age: 'fifth'
+            age: 'fifth',
+            series: [ 'Penguin' ]
         });
         this.icthlarinsLittleHelper = new Quest({
             name: `Icthlarin\'s Little Helper`,
@@ -858,7 +964,8 @@ class Quests {
             members: true,
             difficulty: 'intermediate',
             length: 'long',
-            age: 'fifth'
+            age: 'fifth',
+            series: [ 'Desert' ]
         });
         this.impCatcher = new Quest({
             name: `Imp Catcher`,
@@ -866,7 +973,8 @@ class Quests {
             members: false,
             difficulty: 'novice',
             length: 'short',
-            age: 'fifth'
+            age: 'fifth',
+            series: []
         });
         this.impressingTheLocals = new Quest({
             name: `Impressing the Locals`,
@@ -874,7 +982,8 @@ class Quests {
             members: true,
             difficulty: 'novice',
             length: 'short',
-            age: 'sixth'
+            age: 'sixth',
+            series: [ 'Tales of the Arc' ]
         });
         this.inAidOfTheMyreque = new Quest({
             name: `In Aid of the Myreque`,
@@ -882,7 +991,8 @@ class Quests {
             members: true,
             difficulty: 'intermediate',
             length: 'long',
-            age: 'fifth'
+            age: 'fifth',
+            series: [ 'Myreque' ]
         });
         this.inPyreNeed = new Quest({
             name: `In Pyre Need`,
@@ -890,7 +1000,8 @@ class Quests {
             members: true,
             difficulty: 'experienced',
             length: 'short to medium',
-            age: 'ambiguous'
+            age: 'ambiguous',
+            series: []
         });
         this.inSearchOfTheMyreque = new Quest({
             name: `In Search of the Myreque`,
@@ -898,7 +1009,8 @@ class Quests {
             members: true,
             difficulty: 'intermediate',
             length: 'short',
-            age: 'fifth'
+            age: 'fifth',
+            series: [ 'Myreque' ]
         });
         this.theJackofSpades = new Quest({
             name: `The Jack of Spades`,
@@ -906,7 +1018,8 @@ class Quests {
             members: true,
             difficulty: 'novice',
             length: 'short to medium',
-            age: 'fifth'
+            age: 'fifth',
+            series: [ 'Desert' ]
         });
         this.junglePotion = new Quest({
             name: `Jungle Potion`,
@@ -914,7 +1027,8 @@ class Quests {
             members: true,
             difficulty: 'novice',
             length: 'short',
-            age: 'fifth'
+            age: 'fifth',
+            series: []
         });
         this.kennithsConcerns = new Quest({
             name: `Kennith\'s Concerns`,
@@ -922,7 +1036,8 @@ class Quests {
             members: true,
             difficulty: 'intermediate',
             length: 'medium to long',
-            age: 'fifth'
+            age: 'fifth',
+            series: [ 'Sea Slug' ]
         });
         this.kindredSpirits = new Quest({
             name: `Kindred Spirits`,
@@ -930,7 +1045,8 @@ class Quests {
             members: true,
             difficulty: 'experienced',
             length: 'long',
-            age: 'sixth'
+            age: 'sixth',
+            series: [ 'Sliske' ]
         });
         this.kingOfTheDwarves = new Quest({
             name: `King of the Dwarves`,
@@ -938,7 +1054,8 @@ class Quests {
             members: true,
             difficulty: 'master',
             length: 'medium to long',
-            age: 'ambiguous'
+            age: 'ambiguous',
+            series: [ 'Rise of the Red Axe' ]
         });
         this.kingsRansom = new Quest({
             name: `King\'s Ransom`,
@@ -946,7 +1063,8 @@ class Quests {
             members: true,
             difficulty: 'experienced',
             length: 'medium to long',
-            age: 'fifth'
+            age: 'fifth',
+            series: [ 'Camelot', 'Sinclair' ]
         });
         this.theKnightsSword = new Quest({
             name: `The Knight\'s Sword`,
@@ -954,7 +1072,8 @@ class Quests {
             members: false,
             difficulty: 'intermediate',
             length: 'short',
-            age: 'fifth'
+            age: 'fifth',
+            series: []
         });
         this.landOfTheGoblins = new Quest({
             name: `Land of the Goblins`,
@@ -962,7 +1081,8 @@ class Quests {
             members: true,
             difficulty: 'experienced',
             length: 'long',
-            age: 'fifth'
+            age: 'fifth',
+            series: [ 'Dorgeshuun' ]
         });
         this.legacyOfSeergaze = new Quest({
             name: `Legacy of Seergaze`,
@@ -970,7 +1090,8 @@ class Quests {
             members: true,
             difficulty: 'experienced',
             length: 'long to very long',
-            age: 'fifth'
+            age: 'fifth',
+            series: [ 'Myreque' ]
         });
         this.legendsQuest = new Quest({
             name: `Legends\' Quest`,
@@ -978,7 +1099,8 @@ class Quests {
             members: true,
             difficulty: 'master',
             length: 'long to very long',
-            age: 'fifth'
+            age: 'fifth',
+            series: []
         });
         this.letThemEatPie = new Quest({
             name: `Let Them Eat Pie`,
@@ -986,7 +1108,8 @@ class Quests {
             members: false,
             difficulty: 'novice',
             length: 'short to medium',
-            age: 'ambiguous'
+            age: 'ambiguous',
+            series: []
         });
         this.theLightWithin = new Quest({
             name: `The Light Within`,
@@ -994,7 +1117,8 @@ class Quests {
             members: true,
             difficulty: 'grandmaster',
             length: 'long',
-            age: 'sixth'
+            age: 'sixth',
+            series: [ 'Elf', 'God', 'Enchanted Key' ]
         });
         this.theLordOfVampyrium = new Quest({
             name: `The Lord of Vampyrium`,
@@ -1002,7 +1126,8 @@ class Quests {
             members: true,
             difficulty: 'master',
             length: 'long to very long',
-            age: 'fifth'
+            age: 'fifth',
+            series: [ 'Myreque' ]
         });
         this.lostCity = new Quest({
             name: `Lost City`,
@@ -1010,7 +1135,8 @@ class Quests {
             members: true,
             difficulty: 'experienced',
             length: 'medium',
-            age: 'fifth'
+            age: 'fifth',
+            series: [ 'Fairy Tale' ]
         });
         this.theLostTribe = new Quest({
             name: `The Lost Tribe`,
@@ -1018,7 +1144,8 @@ class Quests {
             members: true,
             difficulty: 'intermediate',
             length: 'medium',
-            age: 'fifth'
+            age: 'fifth',
+            series: [ 'Dorgeshuun' ]
         });
         this.loveStory = new Quest({
             name: `Love Story`,
@@ -1026,7 +1153,8 @@ class Quests {
             members: true,
             difficulty: 'master',
             length: 'medium to long',
-            age: 'ambiguous'
+            age: 'ambiguous',
+            series: [ 'Wise Old Man' ]
         });
         this.lunarDiplomacy = new Quest({
             name: `Lunar Diplomacy`,
@@ -1034,7 +1162,8 @@ class Quests {
             members: true,
             difficulty: 'experienced',
             length: 'long',
-            age: 'fifth'
+            age: 'fifth',
+            series: [ 'Fremennik' ]
         });
         this.makingHistory = new Quest({
             name: `Making History`,
@@ -1042,7 +1171,8 @@ class Quests {
             members: true,
             difficulty: 'intermediate',
             length: 'medium',
-            age: 'fifth'
+            age: 'fifth',
+            series: [ 'Enchanted Key' ]
         });
         this.meetingHistory = new Quest({
             name: `Meeting History`,
@@ -1050,7 +1180,8 @@ class Quests {
             members: true,
             difficulty: 'intermediate',
             length: 'medium',
-            age: 'fifth'
+            age: 'fifth',
+            series: [ 'Enchanted Key' ]
         });
         this.merlinsCrystal = new Quest({
             name: `Merlin\'s Crystal`,
@@ -1058,7 +1189,8 @@ class Quests {
             members: true,
             difficulty: 'intermediate',
             length: 'medium',
-            age: 'fifth'
+            age: 'fifth',
+            series: [ 'Camelot' ]
         });
         this.theMightyFall = new Quest({
             name: `The Mighty Fall`,
@@ -1066,7 +1198,8 @@ class Quests {
             members: true,
             difficulty: 'master',
             length: 'long to very long',
-            age: 'sixth'
+            age: 'sixth',
+            series: [ 'Dorgeshuun', 'Troll', 'God' ]
         });
         this.missingMyMummy = new Quest({
             name: `Missing My Mummy`,
@@ -1074,7 +1207,8 @@ class Quests {
             members: true,
             difficulty: 'intermediate',
             length: 'medium to long',
-            age: 'fifth'
+            age: 'fifth',
+            series: [ 'Mahjarrat', 'Desert' ]
         });
         this.missingPresumedDeath = new Quest({
             name: `Missing, Presumed Death`,
@@ -1082,7 +1216,8 @@ class Quests {
             members: false,
             difficulty: 'novice',
             length: 'medium to long',
-            age: 'sixth'
+            age: 'sixth',
+            series: [ 'Mahjarrat', 'Sliske', 'God', 'Dragonkin' ]
         });
         this.monksFriend = new Quest({
             name: `Monk\'s Friend`,
@@ -1090,7 +1225,8 @@ class Quests {
             members: true,
             difficulty: 'novice',
             length: 'short',
-            age: 'ambiguous'
+            age: 'ambiguous',
+            series: []
         });
         this.monkeyMadness = new Quest({
             name: `Monkey Madness`,
@@ -1098,7 +1234,8 @@ class Quests {
             members: true,
             difficulty: 'master',
             length: 'very long',
-            age: 'fifth'
+            age: 'fifth',
+            series: [ 'Gnome', 'Monkey' ]
         });
         this.mountainDaughter = new Quest({
             name: `Mountain Daughter`,
@@ -1106,7 +1243,8 @@ class Quests {
             members: true,
             difficulty: 'intermediate',
             length: 'medium to long',
-            age: 'fifth'
+            age: 'fifth',
+            series: [ 'Fremennik' ]
         });
         this.mourningsEndPartI = new Quest({
             name: `Mourning\'s End Part I`,
@@ -1114,7 +1252,8 @@ class Quests {
             members: true,
             difficulty: 'master',
             length: 'long to very long',
-            age: 'ambiguous'
+            age: 'ambiguous',
+            series: [ 'Elf' ]
         });
         this.mourningsEndPartII = new Quest({
             name: `Mourning\'s End Part II`,
@@ -1122,7 +1261,8 @@ class Quests {
             members: true,
             difficulty: 'master',
             length: 'very long',
-            age: 'ambiguous'
+            age: 'ambiguous',
+            series: [ 'Elf' ]
         });
         this.murderMystery = new Quest({
             name: `Murder Mystery`,
@@ -1130,7 +1270,8 @@ class Quests {
             members: true,
             difficulty: 'novice',
             length: 'medium',
-            age: 'fifth'
+            age: 'fifth',
+            series: [ 'Sinclair' ]
         });
         this.myArmsBigAdventure = new Quest({
             name: `My Arm\'s Big Adventure`,
@@ -1138,7 +1279,8 @@ class Quests {
             members: true,
             difficulty: 'intermediate',
             length: 'medium to long',
-            age: 'ambiguous'
+            age: 'ambiguous',
+            series: [ 'Troll' ]
         });
         this.mythsOfTheWhiteLands = new Quest({
             name: `Myths of the White Lands`,
@@ -1146,7 +1288,8 @@ class Quests {
             members: false,
             difficulty: 'novice',
             length: 'medium',
-            age: 'ambiguous'
+            age: 'ambiguous',
+            series: []
         });
         this.natureSpirit = new Quest({
             name: `Nature Spirit`,
@@ -1154,7 +1297,8 @@ class Quests {
             members: true,
             difficulty: 'novice',
             length: 'short to medium',
-            age: 'fifth'
+            age: 'fifth',
+            series: [ 'Myreque' ]
         });
         this.theNeedleSkips = new Quest({
             name: `The Needle Skips`,
@@ -1162,7 +1306,8 @@ class Quests {
             members: true,
             difficulty: 'novice',
             length: 'short',
-            age: 'sixth'
+            age: 'sixth',
+            series: []
         });
         this.nomadsElegy = new Quest({
             name: `Nomad\'s Elegy`,
@@ -1170,7 +1315,8 @@ class Quests {
             members: true,
             difficulty: 'master',
             length: 'long',
-            age: 'sixth'
+            age: 'sixth',
+            series: [ 'Sliske' ]
         });
         this.nomadsRequiem = new Quest({
             name: `Nomad\'s Requiem`,
@@ -1178,7 +1324,8 @@ class Quests {
             members: true,
             difficulty: 'grandmaster',
             length: 'medium',
-            age: 'fifth'
+            age: 'fifth',
+            series: []
         });
         this.observatoryQuest = new Quest({
             name: `Observatory Quest`,
@@ -1186,7 +1333,8 @@ class Quests {
             members: true,
             difficulty: 'novice',
             length: 'medium',
-            age: 'ambiguous'
+            age: 'ambiguous',
+            series: []
         });
         this.olafsQuest = new Quest({
             name: `Olaf\'s Quest`,
@@ -1194,7 +1342,8 @@ class Quests {
             members: true,
             difficulty: 'intermediate',
             length: 'short to medium',
-            age: 'ambiguous'
+            age: 'ambiguous',
+            series: [ 'Fremennik' ]
         });
         this.onceUponASlime = new Quest({
             name: `Once Upon a Slime`,
@@ -1202,7 +1351,8 @@ class Quests {
             members: false,
             difficulty: 'novice',
             length: 'short to medium',
-            age: 'ambiguous'
+            age: 'ambiguous',
+            series: []
         });
         this.onceUponATimeInGielinor = new Quest({
             name: `Once Upon a Time in Gielinor`,
@@ -1210,7 +1360,8 @@ class Quests {
             members: true,
             difficulty: 'novice',
             length: 'medium to long',
-            age: 'sixth'
+            age: 'sixth',
+            series: []
         });
         this.oneOfAKind = new Quest({
             name: `One of a Kind`,
@@ -1218,7 +1369,8 @@ class Quests {
             members: true,
             difficulty: 'grandmaster',
             length: 'long to very long',
-            age: 'sixth'
+            age: 'sixth',
+            series:  [ 'Dragonkin' ]
         });
         this.onePiercingNote = new Quest({
             name: `One Piercing Note`,
@@ -1226,7 +1378,8 @@ class Quests {
             members: false,
             difficulty: 'novice',
             length: 'medium to long',
-            age: 'ambiguous'
+            age: 'ambiguous',
+            series: []
         });
         this.oneSmallFavour = new Quest({
             name: `One Small Favour`,
@@ -1234,7 +1387,8 @@ class Quests {
             members: true,
             difficulty: 'experienced',
             length: 'long',
-            age: 'fifth'
+            age: 'fifth',
+            series: []
         });
         this.ourManInTheNorth = new Quest({
             name: `Our Man in the North`,
@@ -1242,7 +1396,8 @@ class Quests {
             members: true,
             difficulty: 'master',
             length: 'short to medium',
-            age: 'fifth'
+            age: 'fifth',
+            series: [ 'Desert' ]
         });
         this.thePathOfGlouphrie = new Quest({
             name: `The Path of Glouphrie`,
@@ -1250,7 +1405,8 @@ class Quests {
             members: true,
             difficulty: 'experienced',
             length: 'long',
-            age: 'fifth'
+            age: 'fifth',
+            series: [ 'Gnome' ]
         });
         this.perilsOfIceMountain = new Quest({
             name: `Perils of Ice Mountain`,
@@ -1258,7 +1414,8 @@ class Quests {
             members: false,
             difficulty: 'novice',
             length: 'medium',
-            age: 'ambiguous'
+            age: 'ambiguous',
+            series: []
         });
         this.phiteClub = new Quest({
             name: `\'Phite Club`,
@@ -1266,7 +1423,8 @@ class Quests {
             members: true,
             difficulty: 'master',
             length: 'short',
-            age: 'fifth'
+            age: 'fifth',
+            series: [ 'Desert' ]
         });
         this.piecesOfHate = new Quest({
             name: `Pieces of Hate`,
@@ -1274,7 +1432,8 @@ class Quests {
             members: true,
             difficulty: 'master',
             length: 'long',
-            age: 'fifth'
+            age: 'fifth',
+            series: [ 'Pirate' ]
         });
         this.piratesTreasure = new Quest({
             name: `Pirate\'s Treasure`,
@@ -1282,7 +1441,8 @@ class Quests {
             members: false,
             difficulty: 'novice',
             length: 'short',
-            age: 'fifth'
+            age: 'fifth',
+            series: [ 'Pirate' ]
         });
         this.plagueCity = new Quest({
             name: `Plague City`,
@@ -1290,7 +1450,8 @@ class Quests {
             members: true,
             difficulty: 'novice',
             length: 'short to medium',
-            age: 'fifth'
+            age: 'fifth',
+            series: [ 'Elf' ]
         });
         this.plaguesEnd = new Quest({
             name: `Plague\'s End`,
@@ -1298,7 +1459,8 @@ class Quests {
             members: true,
             difficulty: 'grandmaster',
             length: 'long to very long',
-            age: 'ambiguous'
+            age: 'ambiguous',
+            series: [ 'Elf' ]
         });
         this.priestInPeril = new Quest({
             name: `Priest in Peril`,
@@ -1306,7 +1468,8 @@ class Quests {
             members: false,
             difficulty: 'novice',
             length: 'medium',
-            age: 'fifth'
+            age: 'fifth',
+            series: [ 'Myreque' ]
         });
         this.thePrisonerOfGlouphrie = new Quest({
             name: `The Prisoner of Glouphrie`,
@@ -1314,7 +1477,8 @@ class Quests {
             members: true,
             difficulty: 'master',
             length: 'medium',
-            age: 'ambiguous'
+            age: 'ambiguous',
+            series: [ 'Gnome' ]
         });
         this.quietBeforeTheSwarm = new Quest({
             name: `Quiet Before the Swarm`,
@@ -1322,7 +1486,8 @@ class Quests {
             members: true,
             difficulty: 'intermediate',
             length: 'medium to long',
-            age: 'fifth'
+            age: 'fifth',
+            series: [ 'Void Knights', 'Temple Knight' ]
         });
         this.ragAndBoneMan = new Quest({
             name: `Rag and Bone Man`,
@@ -1330,7 +1495,8 @@ class Quests {
             members: true,
             difficulty: 'novice',
             length: 'medium to long',
-            age: 'ambiguous'
+            age: 'ambiguous',
+            series: []
         });
         this.ratCatchers = new Quest({
             name: `Rat Catchers`,
@@ -1338,7 +1504,8 @@ class Quests {
             members: true,
             difficulty: 'intermediate',
             length: 'long',
-            age: 'ambiguous'
+            age: 'ambiguous',
+            series: []
         });
         this.recipeForDisaster = new Quest({
             name: `Recipe for Disaster`,
@@ -1346,7 +1513,8 @@ class Quests {
             members: true,
             difficulty: 'special',
             length: 'very, very long',
-            age: 'fifth'
+            age: 'fifth',
+            series: []
         });
         this.recruitmentDrive = new Quest({
             name: `Recruitment Drive`,
@@ -1354,7 +1522,8 @@ class Quests {
             members: true,
             difficulty: 'novice',
             length: 'medium',
-            age: 'fifth'
+            age: 'fifth',
+            series: [ 'Temple Knight' ]
         });
         this.regicide = new Quest({
             name: `Regicide`,
@@ -1362,7 +1531,8 @@ class Quests {
             members: true,
             difficulty: 'master',
             length: 'long',
-            age: 'ambiguous'
+            age: 'ambiguous',
+            series: [ 'Elf' ]
         });
         this.theRestlessGhost = new Quest({
             name: `The Restless Ghost`,
@@ -1370,7 +1540,8 @@ class Quests {
             members: false,
             difficulty: 'novice',
             length: 'short',
-            age: 'fifth'
+            age: 'fifth',
+            series: []
         });
         this.ritualOfTheMahjarrat = new Quest({
             name: `Ritual of the Mahjarrat`,
@@ -1378,7 +1549,8 @@ class Quests {
             members: true,
             difficulty: 'grandmaster',
             length: 'very, very long',
-            age: 'fifth'
+            age: 'fifth',
+            series: [ 'Mahjarrat', 'Rise of Lucien', 'Dragonkin', 'Arrav', 'Return of Zaros' ]
         });
         this.riverOfBlood = new Quest({
             name: `River of Blood`,
@@ -1386,7 +1558,8 @@ class Quests {
             members: true,
             difficulty: 'grandmaster',
             length: 'long to very long',
-            age: 'fifth'
+            age: 'fifth',
+            series: [ 'Myreque' ]
         });
         this.rockingOut = new Quest({
             name: `Rocking Out`,
@@ -1394,7 +1567,8 @@ class Quests {
             members: true,
             difficulty: 'master',
             length: 'long to very long',
-            age: 'fifth'
+            age: 'fifth',
+            series: [ 'Pirate' ]
         });
         this.rovingElves = new Quest({
             name: `Roving Elves`,
@@ -1402,7 +1576,8 @@ class Quests {
             members: true,
             difficulty: 'master',
             length: 'medium to long',
-            age: 'ambiguous'
+            age: 'ambiguous',
+            series: [ 'Elf', 'Gnome' ]
         });
         this.royalTrouble = new Quest({
             name: `Royal Trouble`,
@@ -1410,7 +1585,8 @@ class Quests {
             members: true,
             difficulty: 'experienced',
             length: 'medium to long',
-            age: 'fifth'
+            age: 'fifth',
+            series: [ 'Fremennik' ]
         });
         this.rumDeal = new Quest({
             name: `Rum Deal`,
@@ -1418,7 +1594,8 @@ class Quests {
             members: true,
             difficulty: 'experienced',
             length: 'medium',
-            age: 'fifth'
+            age: 'fifth',
+            series: [ 'Pirate' ]
         });
         this.runeMechanics = new Quest({
             name: `Rune Mechanics`,
@@ -1426,7 +1603,8 @@ class Quests {
             members: true,
             difficulty: 'novice',
             length: 'short',
-            age: 'ambiguous'
+            age: 'ambiguous',
+            series: []
         });
         this.runeMemories = new Quest({
             name: `Rune Memories`,
@@ -1434,7 +1612,8 @@ class Quests {
             members: true,
             difficulty: 'novice',
             length: 'long',
-            age: 'fifth'
+            age: 'fifth',
+            series: [ 'Signature Heroes' ]
         });
         this.runeMysteries = new Quest({
             name: `Rune Mysteries`,
@@ -1442,7 +1621,8 @@ class Quests {
             members: false,
             difficulty: 'novice',
             length: 'medium to long',
-            age: 'fifth'
+            age: 'fifth',
+            series: [ 'Signature Heroes' ]
         });
         this.saltInTheWound = new Quest({
             name: `Salt in the Wound`,
@@ -1450,7 +1630,8 @@ class Quests {
             members: true,
             difficulty: 'intermediate',
             length: 'long',
-            age: 'ambiguous'
+            age: 'ambiguous',
+            series: [ 'Sea Slug', 'Temple Knight' ]
         });
         this.scorpionCatcher = new Quest({
             name: `Scorpion Catcher`,
@@ -1458,7 +1639,8 @@ class Quests {
             members: true,
             difficulty: 'intermediate',
             length: 'short',
-            age: 'ambiguous'
+            age: 'ambiguous',
+            series: []
         });
         this.seaSlug = new Quest({
             name: `Sea Slug`,
@@ -1466,7 +1648,8 @@ class Quests {
             members: true,
             difficulty: 'intermediate',
             length: 'short to medium',
-            age: 'fifth'
+            age: 'fifth',
+            series: [ 'Sea Slug' ]
         });
         this.shadesOfMortton = new Quest({
             name: `Shades of Mort\'ton`,
@@ -1474,7 +1657,8 @@ class Quests {
             members: true,
             difficulty: 'intermediate',
             length: 'medium',
-            age: 'fifth'
+            age: 'fifth',
+            series: []
         });
         this.shadowOfTheStorm = new Quest({
             name: `Shadow of the Storm`,
@@ -1482,7 +1666,8 @@ class Quests {
             members: true,
             difficulty: 'intermediate',
             length: 'medium',
-            age: 'fifth'
+            age: 'fifth',
+            series: [ 'Delrith' ]
         });
         this.aShadowOverAshdale = new Quest({
             name: `A Shadow over Ashdale`,
@@ -1490,7 +1675,8 @@ class Quests {
             members: false,
             difficulty: 'novice',
             length: 'medium',
-            age: 'ambiguous'
+            age: 'ambiguous',
+            series: []
         });
         this.sheepHerder = new Quest({
             name: `Sheep Herder`,
@@ -1498,7 +1684,8 @@ class Quests {
             members: true,
             difficulty: 'novice',
             length: 'medium',
-            age: 'fifth'
+            age: 'fifth',
+            series: [ 'Elf' ]
         });
         this.shieldOfArrav = new Quest({
             name: `Shield of Arrav`,
@@ -1506,7 +1693,8 @@ class Quests {
             members: false,
             difficulty: 'novice',
             length: 'medium',
-            age: 'fifth'
+            age: 'fifth',
+            series: [ 'Mahjarrat', 'Arrav' ]
         });
         this.shiloVillage = new Quest({
             name: `Shilo Village`,
@@ -1514,7 +1702,8 @@ class Quests {
             members: true,
             difficulty: 'experienced',
             length: 'medium to long',
-            age: 'fifth'
+            age: 'fifth',
+            series: []
         });
         this.sliskesEndgame = new Quest({
             name: `Sliske\'s Endgame`,
@@ -1522,7 +1711,8 @@ class Quests {
             members: true,
             difficulty: 'grandmaster',
             length: 'very long',
-            age: 'sixth'
+            age: 'sixth',
+            series: [ 'Sliske', 'Elder Gods', 'Dragonkin' ]
         });
         this.theSlugMenace = new Quest({
             name: `The Slug Menace`,
@@ -1530,7 +1720,8 @@ class Quests {
             members: true,
             difficulty: 'intermediate',
             length: 'medium to long',
-            age: 'fifth'
+            age: 'fifth',
+            series: [ 'Sea Slug', 'Temple Knight' ]
         });
         this.smokingKills = new Quest({
             name: `Smoking Kills`,
@@ -1538,7 +1729,8 @@ class Quests {
             members: true,
             difficulty: 'intermediate',
             length: 'short',
-            age: 'fifth'
+            age: 'fifth',
+            series: [ 'Desert' ]
         });
         this.someLikeItCold = new Quest({
             name: `Some Like It Cold`,
@@ -1546,7 +1738,8 @@ class Quests {
             members: true,
             difficulty: 'experienced',
             length: 'long to very long',
-            age: 'fifth'
+            age: 'fifth',
+            series: [ 'Penguin' ]
         });
         this.songFromTheDepths = new Quest({
             name: `Song from the Depths`,
@@ -1554,7 +1747,8 @@ class Quests {
             members: false,
             difficulty: 'novice',
             length: 'short to medium',
-            age: 'ambiguous'
+            age: 'ambiguous',
+            series: []
         });
         this.aSoulsBane = new Quest({
             name: `A Soul\'s Bane`,
@@ -1562,7 +1756,8 @@ class Quests {
             members: false,
             difficulty: 'novice',
             length: 'short to medium',
-            age: 'ambiguous'
+            age: 'ambiguous',
+            series: []
         });
         this.spiritOfSummer = new Quest({
             name: `Spirit of Summer`,
@@ -1570,7 +1765,8 @@ class Quests {
             members: true,
             difficulty: 'intermediate',
             length: 'long',
-            age: 'ambiguous'
+            age: 'ambiguous',
+            series: [ 'Summer' ]
         });
         this.spiritsOfTheElid = new Quest({
             name: `Spirits of the Elid`,
@@ -1578,7 +1774,8 @@ class Quests {
             members: true,
             difficulty: 'intermediate',
             length: 'medium',
-            age: 'fifth'
+            age: 'fifth',
+            series: [ 'Desert' ]
         });
         this.stolenHearts = new Quest({
             name: `Stolen Hearts`,
@@ -1586,7 +1783,8 @@ class Quests {
             members: false,
             difficulty: 'novice',
             length: 'medium to long',
-            age: 'fifth'
+            age: 'fifth',
+            series: [ 'Desert' ]
         });
         this.summersEnd = new Quest({
             name: `Summer\'s End`,
@@ -1594,7 +1792,8 @@ class Quests {
             members: true,
             difficulty: 'experienced',
             length: 'medium to long',
-            age: 'ambiguous'
+            age: 'ambiguous',
+            series: [ 'Summer' ]
         });
         this.swanSong = new Quest({
             name: `Swan Song`,
@@ -1602,7 +1801,8 @@ class Quests {
             members: true,
             difficulty: 'master',
             length: 'medium to long',
-            age: 'ambiguous'
+            age: 'ambiguous',
+            series: [ 'Wise Old Man' ]
         });
         this.sweptAway = new Quest({
             name: `Swept Away`,
@@ -1610,7 +1810,8 @@ class Quests {
             members: false,
             difficulty: 'novice',
             length: 'short to medium',
-            age: 'ambiguous'
+            age: 'ambiguous',
+            series: []
         });
         this.taiBwoWannaiTrio = new Quest({
             name: `Tai Bwo Wannai Trio`,
@@ -1618,7 +1819,8 @@ class Quests {
             members: true,
             difficulty: 'intermediate',
             length: 'long',
-            age: 'ambiguous'
+            age: 'ambiguous',
+            series: []
         });
         this.aTailOfTwoCats = new Quest({
             name: `A Tail of Two Cats`,
@@ -1626,7 +1828,8 @@ class Quests {
             members: true,
             difficulty: 'intermediate',
             length: 'long',
-            age: 'fifth'
+            age: 'fifth',
+            series: [ 'Dragonkin' ]
         });
         this.theTaleOfTheMuspah = new Quest({
             name: `The Tale of the Muspah`,
@@ -1634,7 +1837,8 @@ class Quests {
             members: true,
             difficulty: 'novice',
             length: 'medium',
-            age: 'fifth'
+            age: 'fifth',
+            series: [ 'Mahjarrat', 'Fremennik' ]
         });
         this.tearsOfGuthix = new Quest({
             name: `Tears of Guthix`,
@@ -1642,7 +1846,8 @@ class Quests {
             members: true,
             difficulty: 'intermediate',
             length: 'short',
-            age: 'fifth'
+            age: 'fifth',
+            series: []
         });
         this.theTempleAtSenntisten = new Quest({
             name: `The Temple at Senntisten`,
@@ -1650,7 +1855,8 @@ class Quests {
             members: true,
             difficulty: 'master',
             length: 'medium to long',
-            age: 'fifth'
+            age: 'fifth',
+            series: [ 'Mysteries of the Mahjarrat', 'Return of Zaros' ]
         });
         this.templeOfIkov = new Quest({
             name: `Temple of Ikov`,
@@ -1658,7 +1864,8 @@ class Quests {
             members: true,
             difficulty: 'experienced',
             length: 'medium',
-            age: 'fifth'
+            age: 'fifth',
+            series: [ 'Mahjarrat', 'Rise of Lucien' ]
         });
         this.throneOfMiscellania = new Quest({
             name: `Throne of Miscellania`,
@@ -1666,7 +1873,8 @@ class Quests {
             members: true,
             difficulty: 'experienced',
             length: 'medium',
-            age: 'fifth'
+            age: 'fifth',
+            series: [ 'Fremennik' ]
         });
         this.tokTzKetDill = new Quest({
             name: `TokTz-Ket-Dill`,
@@ -1674,7 +1882,8 @@ class Quests {
             members: true,
             difficulty: 'experienced',
             length: 'long to very long',
-            age: 'ambiguous'
+            age: 'ambiguous',
+            series: [ 'TzHaar' ]
         });
         this.theTouristTrap = new Quest({
             name: `The Tourist Trap`,
@@ -1682,7 +1891,8 @@ class Quests {
             members: true,
             difficulty: 'intermediate',
             length: 'medium to long',
-            age: 'fifth'
+            age: 'fifth',
+            series: [ 'Desert' ]
         });
         this.towerOfLife = new Quest({
             name: `Tower of Life`,
@@ -1690,7 +1900,8 @@ class Quests {
             members: true,
             difficulty: 'novice',
             length: 'medium to long',
-            age: 'fifth'
+            age: 'fifth',
+            series: []
         });
         this.treeGnomeVillage = new Quest({
             name: `Tree Gnome Village`,
@@ -1698,7 +1909,8 @@ class Quests {
             members: true,
             difficulty: 'intermediate',
             length: 'medium',
-            age: 'fifth'
+            age: 'fifth',
+            series: [ 'Gnome' ]
         });
         this.tribalTotem = new Quest({
             name: `Tribal Totem`,
@@ -1706,7 +1918,8 @@ class Quests {
             members: true,
             difficulty: 'intermediate',
             length: 'short',
-            age: 'ambiguous'
+            age: 'ambiguous',
+            series: []
         });
         this.trollRomance = new Quest({
             name: `Troll Romance`,
@@ -1714,7 +1927,8 @@ class Quests {
             members: true,
             difficulty: 'experienced',
             length: 'medium',
-            age: 'fifth'
+            age: 'fifth',
+            series: [ 'Troll' ]
         });
         this.trollStronghold = new Quest({
             name: `Troll Stronghold`,
@@ -1722,7 +1936,8 @@ class Quests {
             members: true,
             difficulty: 'experienced',
             length: 'short to medium',
-            age: 'fifth'
+            age: 'fifth',
+            series: [ 'Troll' ]
         });
         this.twilightOfTheGods = new Quest({
             name: `Twilight of the Gods`,
@@ -1730,7 +1945,8 @@ class Quests {
             members: true,
             difficulty: 'master',
             length: 'long',
-            age: 'sixth'
+            age: 'sixth',
+            series: [ 'Elder Gods' ]
         });
         this.undergroundPass = new Quest({
             name: `Underground Pass`,
@@ -1738,7 +1954,8 @@ class Quests {
             members: true,
             difficulty: 'experienced',
             length: 'long to very long',
-            age: 'fifth'
+            age: 'fifth',
+            series: [ 'Elf' ]
         });
         this.vampyreSlayer = new Quest({
             name: `Vampyre Slayer`,
@@ -1746,7 +1963,8 @@ class Quests {
             members: false,
             difficulty: 'novice',
             length: 'short',
-            age: 'fifth'
+            age: 'fifth',
+            series: []
         });
         this.violetIsBlue = new Quest({
             name: `Violet is Blue`,
@@ -1754,7 +1972,8 @@ class Quests {
             members: false,
             difficulty: 'novice',
             length: 'medium',
-            age: 'ambiguous'
+            age: 'ambiguous',
+            series: []
         });
         this.violetIsBlueToo = new Quest({
             name: `Violet is Blue Too`,
@@ -1762,7 +1981,8 @@ class Quests {
             members: false,
             difficulty: 'novice',
             length: 'medium',
-            age: 'ambiguous'
+            age: 'ambiguous',
+            series: []
         });
         this.aVoidDance = new Quest({
             name: `A Void Dance`,
@@ -1770,7 +1990,8 @@ class Quests {
             members: true,
             difficulty: 'experienced',
             length: 'long',
-            age: 'fifth'
+            age: 'fifth',
+            series: [ 'Void Knights' ]
         });
         this.theVoidStaresBack = new Quest({
             name: `The Void Stares Back`,
@@ -1778,7 +1999,8 @@ class Quests {
             members: true,
             difficulty: 'grandmaster',
             length: 'long',
-            age: 'fifth'
+            age: 'fifth',
+            series: [ 'Void Knights' ]
         });
         this.wanted = new Quest({
             name: `Wanted`,
@@ -1786,7 +2008,8 @@ class Quests {
             members: true,
             difficulty: 'intermediate',
             length: 'medium to long',
-            age: 'fifth'
+            age: 'fifth',
+            series: [ 'Temple Knight' ]
         });
         this.watchtower = new Quest({
             name: `Watchtower`,
@@ -1794,7 +2017,8 @@ class Quests {
             members: true,
             difficulty: 'intermediate',
             length: 'long',
-            age: 'ambiguous'
+            age: 'ambiguous',
+            series: []
         });
         this.waterfallQuest = new Quest({
             name: `Waterfall Quest`,
@@ -1802,7 +2026,8 @@ class Quests {
             members: true,
             difficulty: 'intermediate',
             length: 'medium',
-            age: 'fifth'
+            age: 'fifth',
+            series: [ 'Elf', 'Gnome' ]
         });
         this.whatLiesBelow = new Quest({
             name: `What Lies Below`,
@@ -1810,7 +2035,8 @@ class Quests {
             members: true,
             difficulty: 'intermediate',
             length: 'short to medium',
-            age: 'fifth'
+            age: 'fifth',
+            series: []
         });
         this.whatsMineIsYours = new Quest({
             name: `What\'s Mine is Yours`,
@@ -1818,7 +2044,8 @@ class Quests {
             members: false,
             difficulty: 'novice',
             length: 'medium',
-            age: 'fifth'
+            age: 'fifth',
+            series: []
         });
         this.whileGuthixSleeps = new Quest({
             name: `While Guthix Sleeps`,
@@ -1826,7 +2053,8 @@ class Quests {
             members: true,
             difficulty: 'grandmaster',
             length: 'very, very long',
-            age: 'fifth'
+            age: 'fifth',
+            series: [ 'Rise of Lucien', 'Temple Knight', 'Dragonkin' ]
         });
         this.witchsHouse = new Quest({
             name: `Witch\'s House`,
@@ -1834,7 +2062,8 @@ class Quests {
             members: false,
             difficulty: 'intermediate',
             length: 'short',
-            age: 'fifth'
+            age: 'fifth',
+            series: []
         });
         this.withinTheLight = new Quest({
             name: `Within the Light`,
@@ -1842,7 +2071,8 @@ class Quests {
             members: true,
             difficulty: 'master',
             length: 'long',
-            age: 'ambiguous'
+            age: 'ambiguous',
+            series: [ 'Elf' ]
         });
         this.wolfWhistle = new Quest({
             name: `Wolf Whistle`,
@@ -1850,7 +2080,8 @@ class Quests {
             members: false,
             difficulty: 'novice',
             length: 'short to medium',
-            age: 'fifth'
+            age: 'fifth',
+            series: []
         });
         this.theWorldWakes = new Quest({
             name: `The World Wakes`,
@@ -1858,16 +2089,17 @@ class Quests {
             members: true,
             difficulty: 'grandmaster',
             length: 'long to very long',
-            age: 'fifth'
+            age: 'fifth',
+            series: [ 'God' ]
         });
         this.youAreIt = new Quest({
             name: `You Are It`,
             release: new Date(2018, 4, 8),
-
             members: true,
             difficulty: 'intermediate',
             length: 'short',
-            age: 'ambiguous'
+            age: 'ambiguous',
+            series: []
         });
         this.zogreFleshEaters = new Quest({
             name: `Zogre Flesh Eaters`,
@@ -1875,7 +2107,8 @@ class Quests {
             members: true,
             difficulty: 'intermediate',
             length: 'medium',
-            age: 'fifth'
+            age: 'fifth',
+            series: []
         });
 	};
 };
