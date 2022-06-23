@@ -7,6 +7,7 @@ class Quest {
         this.members = data.members ?? false;
         this.difficulty = data.difficulty;
         this.length = data.length;
+        this.age = data.age;
     };
 };
 
